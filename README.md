@@ -67,10 +67,10 @@ node server.js
 ```
 # API Endpoints
 ## User Routes
-- POST /api/users/register
+-** POST /api/users/register**
   - Register a new user
     
-__ Request Body:__
+Request Body:
   ```
   {
   "username": "yourname",
@@ -78,3 +78,36 @@ __ Request Body:__
   "password": "yourpassword"
 }
 ```
+-** POST /api/users/login**
+  - Login a user
+Request Body:
+```
+{
+  "email": "youremail@example.com",
+  "password": "yourpassword"
+}
+```
+## Book Routes
+- **POST /api/books**
+  - Add a new book
+**Request Body example:**
+```
+{
+  "title": "Book Title",
+  "author": "Author Name",
+  "category": "Category",
+  "addedBy": "userId"
+}
+```
+- **GET /api/books**
+    - Get all books
+- **GET /api/books/:id**
+    - Get a single book by ID
+- **PUT /api/books/:id**
+    - Update book details by ID
+- **DELETE /api/books/:id**
+    - Delete a book by ID
+      
+# Testing
+Use Postman or similar REST clients to test API endpoints.
+
