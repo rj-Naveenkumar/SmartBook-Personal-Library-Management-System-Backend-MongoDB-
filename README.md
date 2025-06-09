@@ -50,4 +50,8 @@ SMARTBOOK LIBRARY/
 └── README.md                 # Project overview, instructions, and API structure
 
 ```
+## Install dependencies:
+```
+npm install
+```
 
