@@ -54,4 +54,26 @@ SMARTBOOK LIBRARY/
 ```
 npm install
 ```
-
+## Set up environment variables:
+Create a .env file in the root folder with:
+```
+PORT=5000
+MONGO_URI=_mongodb_connection_string
+```
+## Start the server:
+The server should run at http://localhost:5000.
+```
+node server.js
+```
+# API Endpoints
+## User Routes
+- POST /api/users/register
+  - Register a new user
+** Request Body: **
+  ```
+  {
+  "username": "yourname",
+  "email": "youremail@example.com",
+  "password": "yourpassword"
+}
+```
