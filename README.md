@@ -26,5 +26,27 @@ A RESTful API backend built with Node.js, Express.js, and MongoDB for managing u
 ---
 
 ## Project Structure
+SMARTBOOK LIBRARY/
+│
+├── server.js                 # Main entry point; sets up Express app, MongoDB connection, and routes
+├── .env                      # Contains environment variables (e.g., DB URI); DO NOT upload
+├── .env.example              # Sample .env file without sensitive data
+├── .gitignore                # Specifies files/folders Git should ignore (e.g., node_modules, .env)
+├── package.json              # Defines project dependencies, scripts, and metadata
+├── package-lock.json         # Locks dependency versions for consistent installs
+│
+├── models/
+│   ├── Book.js               # Mongoose schema for book documents
+│   └── User.js               # Mongoose schema for user registration/login
+│
+├── routes/
+│   ├── bookRoutes.js         # API routes for adding, reading, updating, and deleting books
+│   └── userRoutes.js         # API routes for registering and logging in users
+│
+├── postman/
+│   └── SmartBook.postman_collection.json   # Postman collection for testing all backend APIs
+│
+└── README.md                 # Project overview, instructions, and API structure
 
+```
 
