@@ -69,8 +69,8 @@ node server.js
 ## User Routes
 - POST /api/users/register
   - Register a new user
-  - 
-** Request Body: **
+    
+__ Request Body:__
   ```
   {
   "username": "yourname",
