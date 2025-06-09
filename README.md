@@ -26,6 +26,7 @@ A RESTful API backend built with Node.js, Express.js, and MongoDB for managing u
 ---
 
 ## Project Structure
+```
 SMARTBOOK LIBRARY/
 │
 ├── server.js                 # Main entry point; sets up Express app, MongoDB connection, and routes
