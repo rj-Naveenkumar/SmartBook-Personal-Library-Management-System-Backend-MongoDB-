@@ -67,7 +67,7 @@ node server.js
 ```
 # API Endpoints
 ## User Routes
-- ** POST /api/users/register**
+- **POST /api/users/register**
   - Register a new user
     
 Request Body:
@@ -78,7 +78,7 @@ Request Body:
   "password": "yourpassword"
 }
 ```
-- ** POST /api/users/login**
+- **POST /api/users/login**
   - Login a user
 Request Body:
 ```
